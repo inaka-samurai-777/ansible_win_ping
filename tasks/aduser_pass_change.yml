@@ -1,0 +1,7 @@
+- name: AD Ping Check
+  win_ping:
+  register: result
+
+- name: debug
+  debug:
+    msg:"{{ result }}"
