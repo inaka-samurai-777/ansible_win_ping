@@ -1,0 +1,5 @@
+- hosts: ad
+  gather_facts: false
+  connection: local
+  roles:
+    - win_ping
